@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JosephApp</title>
+    <link rel="icon" type="Icone" href="assets/Joseph.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div class="flex flex-col h-screen">
+      <header
+        class="flex items-center flex flex-col items-center justify-center p-4 bg-gray-800 shadow-md"
+      >
+        <h1 class="text-xl font-semibold ml-4">Tomar remédio</h1>
+      </header>
+      <main class="flex-grow relative">
+        <div class="absolute inset-0">
+          <img
+            alt="Map view showing a location pin"
+            class="w-full h-full object-cover"
+            src="assets/ahri.jpeg"
+          />
+        </div>
+        <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+        <div
+          class="relative z-10 flex flex-col items-center justify-center h-full p-4 text-center"
+        >
+          <div class="mb-8">
+            <p
+              class="text-6xl font-bold"
+              id="
+dataHora"
+            ></p>
+            <p class="text-lg text-gray-300"></p>
+          </div>
+          <div
+            style="background-color: #c274ce"
+            class="rounded-full w-40 h-40 flex flex-col items-center justify-center p-4 cursor-pointer shadow-lg"
+            id="ButtonAction"
+          >
+            <a
+              href="https://wa.me/5511991570669?text=Acabei%20de%20tomar%20o%20Rem%C3%A9dio."
+              class="text-xs text-200 mt-1"
+              >Clique para tomar o remédio</a
+            >
+          </div>
+        </div>
+      </main>
+      <div class="bg-gray-800 p-4 rounded-t-lg">
+        <div class="flex items-start">
+          <span class="material-icons text-red-500 mt-1"></span>
+          <div class="ml-3">
+            <p class="font-semibold">Remédio de Hoje</p>
+            <p class="text-gray-400">Aqui vai ficar um histórico de hoje</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
