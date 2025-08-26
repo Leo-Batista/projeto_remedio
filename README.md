@@ -33,7 +33,7 @@ Um site simples e responsivo desenvolvido com **HTML, CSS e JavaScript**, que co
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-contato.git
+   git clone [https://github.com/seu-usuario/projeto-contato.git](https://github.com/Leo-Batista/projeto_remedio.git)
    ```
 
 Abra o arquivo index.html no navegador.
